@@ -91,7 +91,11 @@ main{
 	
 }
 
-
+@media(max-width:320px){
+	.header__body {
+	padding: 50px 5px;
+	}
+}
 
 
 
@@ -106,6 +110,12 @@ main{
 
 .services-body {
 	padding: 110px 30px;
+}
+
+@media(max-width:320px){
+	.services-body {
+	padding: 70px 5px;
+	}
 }
 
 .services-title,
@@ -133,7 +143,16 @@ main{
 	gap: 24px;
 	margin: 0px 0px 66px 0px;
 }
+
+@media(max-width:320px){
+	.servicses-body__cards-block{
+		grid-template: minmax(340px, 1fr) minmax(340px, 1fr) / repeat(auto-fit, minmax(300px, 1fr));
+	}
+}
+
+
 .card-item {
+	display: inline-block;
 	padding: 43.5px 50px;
 	background: #FFFFFF;
 	border-radius: 20px;
@@ -165,6 +184,11 @@ main{
 	letter-spacing: 0.15px;
 	color: #4B4B4B;
 	min-width: 237px;
+}
+@media(max-width:320px){
+	.promise-card-item__text{
+		min-width: 220px;
+	}
 }
 .services-body__button-block {
 	text-align: center;
@@ -202,7 +226,11 @@ main{
 .promise-body {
 	padding: 0px 30px 120px;
 }
-
+@media(max-width:320px){
+	.promise-body {
+	padding: 70px 5px;
+	}
+}
 .promise-body__cards-block {
 	display: flex;
 	margin: -10px -12px 0px;
@@ -234,7 +262,11 @@ main{
 .impact-body{
 	padding: 0px 30px;
 }
-
+@media(max-width:320px){
+	.impact-body {
+	padding: 0px 5px;
+	}
+}
 .impact-body__header {
 }
 .impact-header {
@@ -373,7 +405,16 @@ main{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
+
+@media(max-width:425px){
+	.impact-body__footer{
+		padding: 25px 40px;
+	}
+}
+
+
 
 .imact-footer__text {
 	font-weight: 900;
@@ -382,7 +423,15 @@ main{
 	color: #FFFFFF;
 	max-width: 562px;
 }
+@media(max-width:963px){
+	.imact-footer__text{
+		margin-bottom: 30px;
+	}
+}
+
+
 .imact-footer__button-link {
+	display: inline-block;
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 24px;
@@ -408,6 +457,11 @@ main{
 /*=====================FIRST TASK=======================*/
 .first__body{
 	padding: 0px 30px;
+}
+@media(max-width:320px){
+	.first__body{
+	padding: 0px 5px;
+	}
 }
 
 .first-task{
